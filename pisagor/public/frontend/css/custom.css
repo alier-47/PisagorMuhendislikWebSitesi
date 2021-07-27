@@ -1,0 +1,483 @@
+/* Add here all your CSS customizations */
+#ustDiv{
+    position: absolute;
+    padding-left: 120px;
+    padding-top: 5px;
+}
+#ustDiv img{
+    height: 64px;
+    width: 230px;
+}
+.nav-main-collapse{
+    border-top: #0a0a0a 1px solid;
+    padding-top: 10px;
+}
+.logo-sticky-active img{
+    margin-left: -90px;
+    width: 169px !important;
+    height: 50px !important;
+    top: 50px !important;
+}
+.topInformation{
+    float: right;
+    width: 100%;
+}
+.topInformation .inform{
+    float: right;
+    padding-left: 50px;
+}
+.topInformation .inform .fa-map-marker-alt,.fa-mobile-alt,.fa-clock{
+    float: left;
+    padding-right: 20px;
+    margin-top: -2px;
+    color: #d71a26;
+    font-size: 3em;
+}
+.topInformation .inform span:first-child{
+    line-height: 50px;
+}
+.topInformation #place,#phone{
+    width: 235px;
+}
+.hizmet h4{
+    position: relative;
+    margin-top: -2px;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #DFE3EC;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hizmet h4:after {
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: -3px;
+    width: 60px;
+    margin-top: 1rem;
+    border-top: 3px solid #D51931;
+    content: "";
+}
+.hizmet .psg{
+    list-style-type: square;
+}
+.hizmet ul li{
+    font-weight: 700;
+}
+.social .fab{
+    font-size: 21px;
+    margin-top: -1px;
+}
+.social-icons li{
+    box-shadow: none !important;
+}
+.social-icons .fb{
+    color: #0c0c88;
+}
+.social-icons .fb:hover{
+    color: blue;
+}
+.social-icons .ins{
+    color: #C13584;
+    margin-left: 15px;
+}
+.social-icons .ins:hover{
+    font-weight: bold;
+}
+.social-icons .twt{
+    color: #3a92c1;
+    margin-left: 15px;
+    position: absolute;
+}
+.social-icons .twt:hover{
+    font-weight: bold;
+}
+.social-icons  .fa-youtube{
+    color: #c12200;
+    margin-left: 30px;
+    position: absolute;
+}
+.social-icons .fa-youtube:hover{
+    font-weight: bold;
+}
+ul.social-icons li a:active{
+    box-shadow: none !important;
+}
+
+ul.social-icons li .fa-3x{
+    height: 40px;
+}
+ul.social-icons li .fab a {
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+.mdl .btn{
+    background-color: white;
+    border: red 1px solid;
+    font-size: 15px;
+    font-weight: bold;
+}
+.mdl:hover .btn{
+    background-color: red;
+    color: #fff;
+}
+.mdl .kesif{
+    margin-left: 10px;
+}
+.psg a{
+    color: #777;
+}
+.psg a:hover{
+    text-decoration: none;
+}
+#kesifFormu{
+    background: url("/img/kaynak/bgkesif.jpg") center center no-repeat;
+    background-size: cover;
+}
+#kesifFormu .container-fluid{
+    height: 145px;
+    line-height: 145px;
+}
+#kesifFormu .btn{
+    font-size: 20px;
+    background-color: #ad0000;
+    color: white;
+}
+
+#service{
+    position: relative;
+    margin-top: 50px;
+    z-index: 1;
+}
+#service .module{
+    background-color: #efefef;
+    min-height: 457px;
+}
+#service a:hover{
+    text-decoration: none;
+    color: darkred;
+}
+
+/*  Proje Aşamaları 1 */
+#project_stages{
+    padding-top: 30px;
+}
+#project_stages .moduleRight,.moduleLeft{
+    word-break: break-word;
+    margin-top: 50px;
+}
+#project_stages h4, p{
+    color: #504f4f;
+    text-align: left;
+    padding: 7px;
+}
+#project_stages .moduleRight p{
+    transform: skew(30deg);
+    margin-top: -15px;
+}
+#project_stages .moduleRight h4{
+    transform: skew(30deg);
+    margin-top: -15px;
+}
+#project_stages .moduleLeft p{
+    transform: skew(-30deg);
+    margin-top: -15px;
+}
+#project_stages .moduleLeft h4{
+    transform: skew(-30deg);
+    margin-top: -15px;
+}
+#project_stages .yer-imi-yesil{
+    width: 100%;
+    background:#00ff4e;
+    height:120px;
+    transform: skew(-30deg);
+}
+#project_stages .yer-imi-kirmizi{
+
+    width: 100%;
+    background:#b50000;
+    height:120px;
+    transform: skew(-30deg);
+}
+#project_stages .yer-imi-mavi{
+    width: 100%;
+    background:#065c8e;
+    height:120px;
+    transform: skew(30deg);
+}
+#project_stages .yer-imi-turuncu{
+    width: 100%;
+    background:#ff8800;
+    height:120px;
+    transform: skew(30deg);
+}
+#project_stages h3{
+    width: 100%;
+    text-align: center;
+    color: #004;
+    font-weight: bold;
+    padding: 30px;
+    background-color: #9fffb0;
+}
+
+
+/* Proje Aşamaları 2 */
+#project_stages2{
+    padding-top: 30px;
+}
+#project_stages2 h3{
+    width: 100%;
+    text-align: center;
+    color: #004;
+    font-weight: bold;
+    padding: 30px;
+    background-color: #9fffb0;
+}
+#project_stages2 p{
+    color: #6b6b6b !important;
+}
+#kesifFormu .row{
+    text-align: center;
+    font-size: 2vw;
+}
+.referans .col-md-9{
+    border-left:3px solid #dddddd;
+}
+.referans .col-md-3{
+    padding-left: 0;
+    padding: 5px;
+    background: #dddddd38;
+    border-radius: 0 29px 0 0;
+}
+.referans ul li{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 6px;
+    font-size: 20px;
+    transition: 300ms all;
+}
+.referans ul li a{
+    color: #1a1a1a;
+}
+.referans .col-md-3 ul li a:hover{
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 300ms all;
+}
+.referans h3{
+    margin-left: 45px;
+    margin-top: 13px;
+    position: relative;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #DFE3EC;
+    font-size: 20px;
+    font-weight: 500;
+    width: 20%;
+}
+.referans h3::after{
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: -3px;
+    width: 60px;
+    margin-top: 1rem;
+    border-top: 3px solid #D51931;
+    content: "";
+}
+/*  Takımımız  */
+
+
+
+/* duyurular  */
+#duyurular .imageOverlay, .image img{
+    border-radius:0 0 82px  82px;
+}
+
+#duyurular .imageOverlay:hover{
+    background-color: rgba(200,200,200,1);
+}
+#announcements{
+    background-color: #4c4c4b;
+}
+#announcements .btn{
+    right: 17px;
+    bottom: 10px;
+    position: absolute;
+}
+#announcements a img{
+    max-height: 115px;
+    float: left;
+    margin-right: 17px;
+}
+#announcements h4{
+    margin-top: 0 !important;
+}
+#announcements p{
+    margin-top: -25px;
+}
+#announcements .box-content{
+    word-break: break-word;
+}
+#product .bgtitle{
+    background: url("/img/kaynak/bgurun.png") center center no-repeat;
+    background-size: cover;
+}
+#product .bgtitle h3{
+    padding: 15px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+#product .bgtitle{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#product .container a{
+    color: #1a1a1a;
+    font-size: 20px;
+    font-weight: 700;
+}
+#product .container a:hover{
+    text-decoration: none;
+     color: #4a91de;
+ }
+#product .col-md-4{
+    background: url("/img/kaynak/bgblue.png") center center no-repeat;
+    background-size: cover;
+}
+#product .col-md-4 img{
+    max-height: 300px;
+    padding-left: 47px;
+    padding-bottom: 30px;
+    transition: transform .2s;
+}
+#product .col-md-4 img:hover{
+    transform: scale(1.2);
+}
+#urun-detay .owl-carousel .owl-item{
+    margin-top: 0 !important;
+}
+/* hizmetler */
+.hizmetler .col-md-3{
+    padding: 5px;
+    margin-bottom: 40px;
+}
+.hizmetler{
+    padding: 50px;
+}
+.hizmetler img{
+    height: 227px;
+    width: 227px;
+}
+#our-work h2{
+    text-align: center;
+    border-bottom: 6px solid #04ced8;
+}
+#our-work .title::after{
+    border: 3px solid;
+    margin-left: 40%;
+    width: 20%;
+    margin-top: -38px;
+    color: red;
+}
+footer .fa-facebook-f{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 11px;
+    color: white;
+}
+footer .facebook{
+    background-color: blue;
+}
+footer .fa-twitter{
+    margin-left: 8px;
+    position: absolute;
+    margin-top: 10px;
+    color: white;
+}
+footer .twitter{
+    background-color: #0b97c4;
+}
+footer .fa-instagram{
+    margin-left: 9px;
+    position: absolute;
+    margin-top: 9px;
+    color: white;
+}
+footer .instagram{
+    background-color: #C13584;
+}
+/* media */
+@media screen and (max-width: 767.9px){
+    .hizmetler img{
+        height: auto;
+        width: auto;
+    }
+    .topInformation{
+        visibility: hidden;
+    }
+    #kesifFormu .container-fluid{
+        height: auto;
+        line-height: normal;
+    }
+    #kesifFormu .row{
+        font-size: 10px;
+    }
+    #kesifFormu .btn{
+        font-size: 12px;
+    }
+    #kesifFormu span{
+        font-size: 3.5vw;
+    }
+    #kesifFormu .btn{
+        font-size: 3vw;
+    }
+    #biz .col-xs-9{
+        float: right;
+    }
+    #product .bgtitle{
+        margin-bottom: 0;
+        background: none;
+    }
+    #product .bgtitle h3{
+        border-bottom: 2px solid red;
+        padding-bottom: 0;
+        margin-bottom: 35px;
+    }
+    #product .col-md-4{
+        margin-bottom: 50px;
+    }
+    #product .col-md-4 img{
+        padding-left: 10px;
+    }
+    .logo-sticky-active img{
+        margin-left: 0;
+    }
+    #ustDiv{
+        padding: 0 !important;
+    }
+
+}
+@media screen and (min-width: 768px) {
+    #product .bgtitle h3{
+        font-size: 2vw;
+    }
+}
+@media screen and  (min-width: 768px ) and (max-width: 1199px){
+    #header nav ul.nav-main li a{
+        font-size: 1vw;
+    }
+    .logo-sticky-active img{
+        margin-left: -65px;
+    }
+}
+@media screen  and  (max-width: 1000px){
+    .topInformation{
+        visibility: hidden;
+    }
+    #header .logo img{
+        height: 40px !important;
+    }
+}
